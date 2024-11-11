@@ -54,11 +54,53 @@
 [s]
 
 *tag_things
+[cm]
+
 待ち合わせから2時間半、ようやく返信が来たぞ！なになに、、、[l][r]
 
 彼女「髪が上手く巻けない、、泣」[l][r]
 
 ふざけるな、、、[l][r]
+
+とはいえ返信しないわけにはいかないな[l][r]
+
+[link target=*tag_slow] →「そっか～ゆっくり巻いてきてね～」 [endlink][r]
+[link target=*tag_early] →「そんなことどうでもいいから早く来いよ！」 [endlink][r]
+[s]
+
+*tag_slow
+[cm]
+
+「また未読無視だ、、ガンディーでもキレる案件だぞこれ」　[l][r]
+
+「！！」[l][r]
+
+「返信来た！あと５分で来るらしい！！！」[l][r]
+
+5分後　[l][r]
+
+彼女「全然盛れてないんだけど（泣）」[l][r]
+
+心の中「いやまず謝れよな～、さてなんていうか、、、」[l][r]
+
+[link target=*tag_good] →そんなことないよ！かわいいよ！ [endlink][r]
+[link target=*tag_bad] →まず謝れよ！タコ！ [endlink][r]
+
+*tag_good
+[cm]
+彼女「ほんと！うれしい！　いこ！」[l][r]
+
+【 good end 】[l][cm]
+
+[jump target=*start]
+
+*tag_bad
+[cm]
+彼女「ひどい、、、別れましょ！」[l][r]
+
+【　bad end 】[l][cm]
+
+[jump target=*start]
 
 
 
