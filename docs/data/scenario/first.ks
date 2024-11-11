@@ -1,46 +1,70 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="彼女の機嫌をつかみ取れ！　～catch the mood～"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「彼女の機嫌をつかみ取れ！　～catch the mood～」[l][r]
 
-メロスは激怒した。[l][r]
+これは花火大会での彼女とのやり取り、、、[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+彼女の機嫌を損なわずに楽しく花火大会を見よう！[l][r]
 
-(中略)[l][r]
+ゲームスタート[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+「彼女遅いな、、待ち合わせ時間になっても来ないじゃないか、、、」[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_call] →電話する [endlink][r]
+[link target=*tag_LINE] →ラインする [endlink][r]
 [s]
 
-*tag_sleep
+*tag_call
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+「プルルルル・・・ガチャ」[l][r]
+彼女「今浴衣着付けしてもらってんだけど！？電話してくんなバカ！」[l][r]
 
-【 BAD END 】[l][cm]
+【 BAD END 】 [l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_LINE
 
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+返信が来ない、、、ずっと未読無視だ、[l][r]
 
-【 GOOD END 】[l][cm]
+[link target=*tag_call] →電話する [endlink][r]
+[link target=*tag_cafe] →近くのカフェで待つ [endlink][r]
+[s]
+
+*tag_cafe
+
+[cm]
+
+「近くのカフェで待つことにしたはいいものの、もう待ち合わせから2時間たってるぞ！」[l][r]
+
+[link target=*tag_call] →さすがに電話する [endlink][r]
+[link target=*tag_things] →俺がキレそうだぜ、、 [endlink][r]
+[s]
+
+*tag_things
+待ち合わせから2時間半、ようやく返信が来たぞ！なになに、、、[l][r]
+
+彼女「髪が上手く巻けない、、泣」[l][r]
+
+ふざけるな、、、[l][r]
+
+
+
+
+
+
+
 
 [jump target=*start]
